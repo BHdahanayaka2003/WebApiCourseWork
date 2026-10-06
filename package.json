@@ -1,0 +1,12 @@
+{
+  "name": "slsea-solar-api",
+  "version": "1.0.0",
+  "description": "SLSEA Real-Time Solar Generation Data API (NB6007CEM)",
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/smoke.mjs",
+    "device-key": "node src/device-key.js"
+  }
+}
